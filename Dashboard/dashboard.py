@@ -17,7 +17,7 @@ st.title("Dashboard Penyewaan Sepeda")
 # Memuat data
 @st.cache_data  # Perbarui dekorator caching
 def load_data():
-    data = pd.read_csv('day.csv')  # Ganti dengan path yang sesuai jika perlu
+    data = pd.read_csv('Dashboard/day.csv')  # Ganti dengan path yang sesuai jika perlu
     return data
 
 # Memanggil fungsi untuk memuat data
